@@ -1,5 +1,4 @@
 #Scrivere un programma che fa la somma che verifica se un numero inserito dall'utente e' primo
-from math import sqrt
 numero = int(input('Inserisci un numero: '))
 
 count = 0
