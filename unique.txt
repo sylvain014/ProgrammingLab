@@ -1,0 +1,1 @@
+This is a simple text to check my program's output, so I kept it as a simple Text file, this is because text files are actually good to store small texts. 

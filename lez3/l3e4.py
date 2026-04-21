@@ -10,13 +10,13 @@ def compare(A, B):
     arg: lista1, lista2
     es: compare(lista1, lista2)
     """
-    found = 0
+    found = False
     for item in A:
         if item in B:
-            print(f"Queste due liste hanno al meno un elemento in comune: \n{A}\n{B}\nwhich is {item}\n")
-            found = 1
+            print(f"Queste due liste hanno al meno un elemento in comune: \n{A}\n{B}\nche e' {item}\n")
+            found = True
             break
-    if found == 0:
+    if not found:
         print(f"Queste due liste non hanno nessun elemento in comune: \n{A}\n{B}\n")
 
 compare(my_list1, my_list2)

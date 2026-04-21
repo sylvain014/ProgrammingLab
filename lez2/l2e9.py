@@ -7,7 +7,7 @@ def conta_vocali(stringa):
     """
     conta = 0
     for lettera in stringa:
-        if (lettera in ['a', 'e', 'o', 'i', 'u', 'A', 'E', 'O', 'I', 'U']):
+        if (str(lettera).lower() in ['a', 'e', 'o', 'i', 'u']):
             conta += 1
 
     return conta
